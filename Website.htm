@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website</title>
+</head>
+
+<style>
+
+*{
+  box-sizing: border-box;
+}
+.profile-pic{
+  width: 400px;
+  background-color: aliceblue;
+ 
+  
+}
+@media (Min-width:768px){}
+@media (Max-width:1250px){}
+  
+
+.main-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  margin-top: 5px ;
+  margin-left: 10px;
+  width: 200px;
+}
+.left-section{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-section{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons-pictures{
+  height: 36px;
+
+}
+.sidebar{
+  width: 85px;
+  background-color: white;
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  margin-top: 90px;
+
+}
+.main-container{
+  margin-left: 10px;
+}
+.sidebar-link{
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90px;
+  background-color: lightgray;
+}
+.sidebar-link:hover{
+  background-color: snow;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:white;
+  margin-bottom: 10px;
+  border-bottom-color: rgb(240,240,240 );
+  z-index: 100;
+  
+}
+.search-bar{
+
+  height: 36px;
+  padding-left: 10px;
+  padding-right: 230px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid ;
+  border-color: rgb(192,192,192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 2px rgba(0,0,0,0.05);
+
+}
+button{
+  background-color: #007bff;
+  color: whitesmoke;
+  margin-top: 35px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  padding-right: 65px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+h4{
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+  margin-bottom: 35px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.div-1{
+  margin-left: 68px;
+}
+.div-3{
+  margin-right: 6px;
+}
+
+</style>
+
+<!--Header-->
+<header>
+
+<div style="display: flex; justify-content: space-between;height: 100px;">
+  <div class="left-section"  >
+
+    <img class="icons-pictures"   src="icons-pictures/hamburger-list-menu.svg" alt="">
+    <img class="icons-pictures"   src="icons-pictures/windowsphone-color.svg" alt="">
+    <img class="icons-pictures"    src="icons-pictures/android-color.svg" alt="">
+    <img class="icons-pictures"    src="icons-pictures/google-color.svg" alt="">
+  </div>
+
+
+<div class="middle-section"  >
+  <input class="search-bar"  type="text" placeholder="Search">
+
+</div>
+
+
+<div class="right-section" >
+<img  class="icons-pictures"    src="icons-pictures/java-logo.svg" alt="">
+<img  class="icons-pictures"     src="icons-pictures/python.svg" alt="">
+<img  class="icons-pictures"   src="icons-pictures/firebase-1-logo.svg" alt="">
+<img class="icons-pictures"   src="icons-pictures/postgresql.svg" alt="">
+</div>
+
+</div>
+
+
+</header>
+
+
+<!--Sidebar-->
+
+<div class="sidebar">
+
+  <div class="sidebar-link">
+    <img  class="icons-pictures"  src="icons-pictures/github-logo-face.svg" alt="">
+    <div>Github</div>
+  </div>
+  <div class="sidebar-link">
+    <img  class="icons-pictures"  src="icons-pictures/codepen-color.svg" alt="">
+    <div>Codepen</div>
+  </div>
+  <div class="sidebar-link">
+    <img  class="icons-pictures"   src="icons-pictures/slack.svg" alt="">
+    <div>Slack</div>
+  </div>
+  <div class="sidebar-link">
+    <img  class="icons-pictures"   src="icons-pictures/linux.svg" alt="">
+    <div>Linux</div>
+  </div>
+  <div class="sidebar-link">
+    <img  class="icons-pictures"   src="icons-pictures/api-interface.svg" alt="">
+    <div>API</div>
+  </div>
+  <div class="sidebar-link">
+    <img  class="icons-pictures"   src="icons-pictures/medium-color.svg" alt="">
+    <div>Medium</div>
+  </div>
+
+</div>
+
+
+<!--Body-->
+<body>
+
+<div class="main-container">
+  <div class="main-grid">
+
+    <div class="div-1">
+      <img class="profile-pic"  src="thumbnails/Download Desktop source code and Wallpaper by coding and programming_ for free.jpg" alt="">
+    
+      <h4>About Me</h4>
+      <h2>Into Front-End Web Development</h2>
+
+   <p>  
+  Lorem ipsum, dolor sit amet consectetur <br>
+   adipisicing elit <br>
+  . Quis saepe aut illum veritatis possimus, aspernatur <br>
+  rerum, ex fuga architecto dolorem porro suscipit,  <br>
+  odit dolorum ipsa nemo alias beatae eum recusandae. <br></p>
+      <button>Click me</button>
+    </div> 
+      
+  
+  
+  
+      <div class="div-2">
+        <img class="profile-pic"   src="thumbnails/Programmer Wallpapers ·①  WallpaperTag (1).jpg" alt="">
+
+        <h4>About Me</h4>
+        <h2>Into Back-End Web Development</h2>
+
+      <p>    
+      Lorem ipsum, dolor sit amet consectetur <br>
+       adipisicing elit <br>
+      . Quis saepe aut illum veritatis possimus, aspernatur <br>
+      rerum, ex fuga architecto dolorem porro suscipit,  <br>
+      odit dolorum ipsa nemo alias beatae eum recusandae. <br></p>
+        <button>Click me</button>
+      
+      </div>
+      
+      
+      <div class="div-3">
+        <img class="profile-pic"   src="thumbnails/HD wallpaper_ MacBook Pro, computer, laptop, coffee, programming, web development.jpg" alt="">
+        
+        <h4>About Me</h4>
+        <h2>Into Data Structures and Algorithms</h2>
+
+      <p> Lorem ipsum, dolor sit amet consectetur <br>
+    adipisicing elit <br>
+   . Quis saepe aut illum veritatis possimus, aspernatur <br>
+   rerum, ex fuga architecto dolorem porro suscipit,  <br>
+   odit dolorum ipsa nemo alias beatae eum recusandae. <br></p>
+        <button>Click me</button>
+      
+      </div>
+      
+      
+      
+      </div>
+      
+      
+      
+      
+      
+      <div class="main-grid">
+
+        <div class="div-1">
+          <img class="profile-pic"  src="thumbnails/User Experience and Design.jpg" alt="">
+        
+          <h4>About Me</h4>
+          <h2>Into System Design and Architecture</h2>
+
+       <p>
+        Lorem ipsum, dolor sit amet consectetur <br>
+         adipisicing elit <br>
+        . Quis saepe aut illum veritatis possimus, aspernatur <br>
+        rerum, ex fuga architecto dolorem porro suscipit,  <br>
+        odit dolorum ipsa nemo alias beatae eum recusandae. <br></p>
+          <button>Click me</button>
+        </div> 
+          
+      
+      
+      
+          <div class="div-2">
+            <img class="profile-pic"   src="thumbnails/What is an electronic you would want to gift yourself_!💡.jpg" alt="">
+            
+      <h4>About Me</h4>
+      <h2>Into Data Science and Analytics</h2>
+
+          <p>Lorem ipsum, dolor sit amet consectetur <br>
+    adipisicing elit <br>
+   . Quis saepe aut illum veritatis possimus, aspernatur <br>
+   rerum, ex fuga architecto dolorem porro suscipit,  <br>
+   odit dolorum ipsa nemo alias beatae eum recusandae. <br></p>
+            <button>Click me</button>
+          
+          </div>
+          
+          
+          <div class="div-3">
+            <img class="profile-pic"   src="thumbnails/Are you looking to enhance your online presence and drive business growth_.jpg" alt="">
+            
+            <h4>About Me</h4>
+            <h2>Into AI,ML and Deep Learning</h2>
+
+            <p>Lorem ipsum, dolor sit amet consectetur <br>
+              adipisicing elit <br>
+             . Quis saepe aut illum veritatis possimus, aspernatur <br>
+             rerum, ex fuga architecto dolorem porro suscipit,  <br>
+             odit dolorum ipsa nemo alias beatae eum recusandae. <br></p>
+            <button>Click me</button>
+          
+          </div>
+          
+          
+          
+          </div>
+          
+          
+  
+  
+  
+   
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
